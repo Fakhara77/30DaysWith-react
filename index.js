@@ -1,2 +1,3 @@
-const numbers=[1,2,3,4,5];
-console.log(numbers);
+// Q1:Declare an empty array;
+let arr=Array(); 
+console.log(arr);
