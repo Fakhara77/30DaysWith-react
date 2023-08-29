@@ -5,8 +5,8 @@ console.log(arr);
 let array=[];
 console.log(array);
 //3rd way to declear  empty array
-let arr1=([]);
-console.log(arr1);
+let myAarray=Array.from([]);
+console.log(myAarray);
 
 //Declare an array with more than 5 number of elements;
 const array2=['e1', 'e2', 'e3', 'e4', 'e5', 'e6'];
