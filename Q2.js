@@ -2,7 +2,7 @@
 let text =
   'I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.'
    
-  text=text.replaceAll('.',',').replaceAll(',' ,' ,','');
+  text=text.replaceAll('.','',',',' ');
  console.log(text);
  const words=text.split(' ');
  console.log(words);

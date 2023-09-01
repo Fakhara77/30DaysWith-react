@@ -5,11 +5,11 @@ const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 // add Sugar at the end of you shopping cart if it has not been already added
 // remove 'Honey' if you are allergic to honey
 // modify Tea to 'Green Tea'
-shoppingCart.unshift('meat');
+shoppingCart.unshift('Meat');
 console.log(shoppingCart);
-shoppingCart.push('sugger');
+shoppingCart.push('Suger');
 console.log(shoppingCart);
 shoppingCart.splice(4,1);
 console.log(shoppingCart);
-shoppingCart[3]='greentea';
+shoppingCart[3]='green Tea';
 console.log(shoppingCart);

@@ -15,12 +15,11 @@ const countries = [
 
 let index=countries.indexOf('Ethiopia');
  if (index != -1) {
-    console.log('This countries does exist in the array')
+    console.log('ETHIPIA')
   } else {
-    console.log('This countries does not exist in the array');
+    console.log('Ethiopia');
   }
- countries[4]='ETHIOPIA';
- console.log(countries);
+ 
 
 
  
