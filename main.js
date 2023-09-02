@@ -1,4 +1,5 @@
-import {countries} from "./countries.js";
-import {webTechs} from "./webTechs.js";
+const countries=require("./countries");
+const webTechs=require("./webTechs");
+
 console.log(countries);
 console.log(webTechs);
