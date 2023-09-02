@@ -1,0 +1,5 @@
+//Concatenate the following two variables and store it in a fullStack variable.
+const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const backEnd =  ['HTML', 'CSS', 'JS', 'React', 'Redux']
+const fullStack=frontEnd .concat(backEnd);
+console.log(fullStack)
